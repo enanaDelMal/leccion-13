@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="form_handler.php" method="GET">
+  <h1> Un formulario más</h1>
+  <p>
+    <label for="pw">Nombre</label><br>
+     <input type="text">
+  </p>
+  <p>
+    <label for="pw">Apellido</label><br>
+     <input type="text">
+  </p>
+  <p>
+    <label for="pw">Telefono</label><br>
+     <input type="number" name ="pw" pattern=".{9,}" tittle ="Máximo 9 dígitos" required>
+  </p>
+  <p>
+    <select name = "id = Elije un auto">
+     <opcion value="Toyota, Nissan, Chevrolet"></opcion>
+    </select>
+  </p
+  <p>
+    <label for="pw">Escribe tu email</label><br>
+     <input type="email">
+  </p>
+  <p>
+    <label for="pw">Crea contraseña</label><br>
+     <input type="password" name ="pw" pattern=".{6,}" tittle ="Máximo 6 dígitos" required>
+  </p>
+  <p>
+     <input type="submit" name ="" value="ENVIAR">
+  </p>
+  </form>
+</body>
+</html>
