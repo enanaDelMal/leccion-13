@@ -1,52 +1,53 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <style>
-body {
-    background: url("http://www.fondosypantallas.com/wp-content/uploads/2012/10/GOLF_20GTI.jpg");
-    background-size: 95% 95%;
-    background-repeat: no-repeat;
-}
-</style>
+     <style>
+        body {
+          background: url("https://i.blogs.es/664cf6/ferrari_430_novitec-7/original.jpg");
+          background-size: 75% 115%;
+          background-repeat: no-repeat;
+              }
+      </style>
 </head>
 <body>
  <form action="">
-  <h1> Formulario de Datos </h1>
-  <p>
-    <label for="nombre">Nombre</label><br>
-     <input type="text" name ="nombre" pattern="[A-Za-z]{}" required>
-  </p>
-  <p>
-    <label for="apellido">Apellido</label><br>
-     <input type="text" name ="apellido" pattern="[A-Za-z]{}" required>
-  </p>
-  <p>
-    <label for="telefono">Teléfono</label><br>
-     <input type="tel" name ="telefono" pattern="[0-9]{9}" title ="Máximo 9 dígitos" required>
-  </p>
-  <p>
-    Elije un auto:
-    <br>
-    <select name = "autos" size="1">
-      <option value="value1">Toyota</option>
-      <option value="value2">Nissan</option> <!-->puedo usar selected para definir una autorespuesta<-->
-      <option value="value3">Chevrolet</option>
-    </select>
-  </p>
-  <p>
-    <label for="email">Email</label><br>
-     <input type="email" required>
-  </p>
-  <p>
-    <label for="contraseña">Crea tu contraseña</label><br>
-     <input type="password" name ="contraseña" pattern=".{6,}" title ="Coloque 6 o más caracteres" required>
-  </p>
-  <p>
-     <input type="submit" name ="" value="ENVIAR">
-  </p>
-  </form>
+  <h1 style="text-align:center;"> Formulario de Datos </h1>
+      <p style="text-align:center;">
+      <label for="nombre">Nombre</label><br>
+      <input type="text" name ="nombre" pattern="[A-Za-z]{}" required>
+      </p>
+      <p style="text-align:center;">
+        <label for="apellido">Apellido</label><br>
+        <input type="text" name ="apellido" pattern="[A-Za-z]{}" required>
+      </p>
+      <p style="text-align:center;">
+        <label for="telefono">Teléfono</label><br>
+        <input type="tel" name ="telefono" pattern="[0-9]{9}" title ="Máximo 9 dígitos" required>
+      </p>
+      <p style="text-align:center;">
+         Elije un auto:
+         <br>
+         <select name = "autos" size="1">
+            <option value="value1">Selecciona una opción</option>
+           <option value="value2">Toyota</option>
+           <option value="value3">Nissan</option> <!-->puedo usar selected para definir una autorespuesta<-->
+           <option value="value4">Chevrolet</option>
+         </select>
+      </p>
+      <p style="text-align:center;">
+         <label for="email">Email</label><br>
+         <input type="email" required>
+      </p>
+      <p style="text-align:center;">
+        <label for="contraseña">Crea tu contraseña</label><br>
+        <input type="password" name ="contraseña" pattern=".{6,}" title ="Coloque 6 o más caracteres" required>
+      </p>
+      <p style="text-align:center;">
+       <input type="submit" name ="" value="ENVIAR">
+      </p>
+ </form>
 </body>
 </html>
