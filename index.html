@@ -1,9 +1,16 @@
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+body {
+    background: url("http://www.fondosypantallas.com/wp-content/uploads/2012/10/GOLF_20GTI.jpg");
+    background-size: 95% 95%;
+    background-repeat: no-repeat;
+}
+</style>
 </head>
 <body>
  <form action="">
@@ -21,10 +28,14 @@
      <input type="tel" name ="telefono" pattern="[0-9]{9}" title ="Máximo 9 dígitos" required>
   </p>
   <p>
-    <select name = "id = Elije un auto">Elije un auto
-     <opcion value="Toyota, Nissan, Chevrolet"></opcion>
+    Elije un auto:
+    <br>
+    <select name = "autos" size="1">
+      <option value="value1">Toyota</option>
+      <option value="value2">Nissan</option> <!-->puedo usar selected para definir una autorespuesta<-->
+      <option value="value3">Chevrolet</option>
     </select>
-  </p
+  </p>
   <p>
     <label for="email">Email</label><br>
      <input type="email" required>
