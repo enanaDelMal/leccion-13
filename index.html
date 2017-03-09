@@ -6,32 +6,32 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="form_handler.php" method="GET">
-  <h1> Un formulario más</h1>
+ <form action="">
+  <h1> Formulario de Datos </h1>
   <p>
-    <label for="pw">Nombre</label><br>
-     <input type="text">
+    <label for="nombre">Nombre</label><br>
+     <input type="text" name ="nombre" pattern="[A-Za-z]{}" required>
   </p>
   <p>
-    <label for="pw">Apellido</label><br>
-     <input type="text">
+    <label for="apellido">Apellido</label><br>
+     <input type="text" name ="apellido" pattern="[A-Za-z]{}" required>
   </p>
   <p>
-    <label for="pw">Telefono</label><br>
-     <input type="number" name ="pw" pattern=".{9,}" tittle ="Máximo 9 dígitos" required>
+    <label for="telefono">Teléfono</label><br>
+     <input type="tel" name ="telefono" pattern="[0-9]{9}" title ="Máximo 9 dígitos" required>
   </p>
   <p>
-    <select name = "id = Elije un auto">
+    <select name = "id = Elije un auto">Elije un auto
      <opcion value="Toyota, Nissan, Chevrolet"></opcion>
     </select>
   </p
   <p>
-    <label for="pw">Escribe tu email</label><br>
-     <input type="email">
+    <label for="email">Email</label><br>
+     <input type="email" required>
   </p>
   <p>
-    <label for="pw">Crea contraseña</label><br>
-     <input type="password" name ="pw" pattern=".{6,}" tittle ="Máximo 6 dígitos" required>
+    <label for="contraseña">Crea tu contraseña</label><br>
+     <input type="password" name ="contraseña" pattern=".{6,}" title ="Coloque 6 o más caracteres" required>
   </p>
   <p>
      <input type="submit" name ="" value="ENVIAR">
